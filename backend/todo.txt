@@ -24,7 +24,7 @@ Exception Type:	IntegrityError
 Exception Value:	
 null value in column "customer_id" of relation "project_management_chatsession" violates not-null constraint
 DETAIL:  Failing row contains (1, 2025-09-19 08:41:31.403882+00, 1, null).
-Exception Location:	/home/ismail/Desktop/code/AakashGanga-RAG/backend/.venv/lib/python3.13/site-packages/django/db/backends/utils.py, line 105, in _execute
+Exception Location:	/home/ismail/Desktop/code/ixora-RAG/backend/.venv/lib/python3.13/site-packages/django/db/backends/utils.py, line 105, in _execute
 
 
 base_query='\n        SELECT d.file_name, de.embedding <-> %s::vector AS distance \n        FROM project_management_documentembedding de \n        JOIN project_management_document d ON d.id = de.document_id \n     where de.document_id = %s AND de.tag_id = %s ORDER BY distance ASC LIMIT %s'

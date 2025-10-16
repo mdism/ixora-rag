@@ -1,11 +1,11 @@
-# AakashGanga-RAG
+# ixora-RAG
 
 ## 🚀 Project Setup & Git Workflow
 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/DigitalServicesOrangeBusiness/AakashGanga-RAG.git
+git clone https://github.com/DigitalServicesOrangeBusiness/ixora-RAG.git
 cd <repo-folder>
 ```
 

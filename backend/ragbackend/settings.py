@@ -196,7 +196,7 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 SPECTACULAR_SETTINGS = {
-    'TITLE': 'AakashGanga-RAG',
+    'TITLE': 'ixora-RAG',
     'DESCRIPTION': 'GenAi Rag Application',
     'VERSION': VERSION,
     # Other settings
