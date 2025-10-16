@@ -1,0 +1,30 @@
+VM DOCKER
+922437d9e555   ankane/pgvector:latest   "docker-entrypoint.s…"   22 hours ago   E
+sudo docker start 922437d9e555
+
+export CMAKE_ARGS="-DLLAMA_CUBLAS=on"
+export FORCE_CMAKE=1
+
+
+curl --location 'http://localhost:8000/api/rag/query/' \
+--header 'Authorization: Bearer <access-token>
+--header 'Content-Type: application/json' \
+--data '{
+  "customer_id": 16,
+  "tag_id": 1,
+  "question": "What is the infra design?[customerA]",
+  "LLM": "opneAi",
+  "chatid":
+}'
+
+Request Method:	POST
+Request URL:	http://localhost:8000/api/rag/query/
+Django Version:	5.2.5
+Exception Type:	IntegrityError
+Exception Value:	
+null value in column "customer_id" of relation "project_management_chatsession" violates not-null constraint
+DETAIL:  Failing row contains (1, 2025-09-19 08:41:31.403882+00, 1, null).
+Exception Location:	/home/ismail/Desktop/code/AakashGanga-RAG/backend/.venv/lib/python3.13/site-packages/django/db/backends/utils.py, line 105, in _execute
+
+
+base_query='\n        SELECT d.file_name, de.embedding <-> %s::vector AS distance \n        FROM project_management_documentembedding de \n        JOIN project_management_document d ON d.id = de.document_id \n     where de.document_id = %s AND de.tag_id = %s ORDER BY distance ASC LIMIT %s'

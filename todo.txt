@@ -1,0 +1,4 @@
+docker run --name postgres-test -e POSTGRES_USER=root -e POSTGRES_PASSWORD=mypassword -p 5432:5432 -d postgres 
+https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF
+https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF
+https://huggingface.co/TheBloke/DeepSeek-Coder-6.7B-GGUF

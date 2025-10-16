@@ -1,0 +1,53 @@
+{
+    "session_id": 35,
+    "answer": {
+        "answer": [
+            [
+                "content",
+                " # Incident Management and Escalation Matrix\n\n## Introduction\nThis section outlines how incidents related to the Managed VWAN service will be managed, and provides an escalation matrix.\n\n## Incident Management\nOrange Business Services follows a well-defined incident management process to ensure that any disruptions to the Managed VWAN service are addressed in a timely and effective manner.\n\nThe incident management process includes the following steps:\n1. **Identification:** The first step is to identify the incident and determine its impact on the Managed VWAN service.\n2. **Classification:** Once an incident has been identified, it needs to be classified based on its severity level.\n3. **Assignment:** After an incident has been classified, it needs to be assigned to the appropriate support team for resolution.\n4. **Resolution:** The support team is responsible for resolving the incident in a timely and effective manner.\n5. **Communication:** Throughout the incident management process, effective communication between all stakeholders is essential to ensure that everyone is informed about the status of the incident and any actions that need to be taken.\n6. **Closure:** Once an incident has been resolved, it needs to be closed out in a formal manner to ensure that all records related to the incident are accurately documented and retained for future reference.\n\n## Escalation Matrix\nIn the event that an incident cannot be resolved by the initial support team, it may need to be escalated to a higher level of support or to a designated escalation team.\n\nThe following escalation matrix outlines the various levels of support and the corresponding escalation paths:\n\n| Severity Level | Initial Support Team | Escalation Path |\n|----------------------|-------------------------------|-----------------------|\n| 1 - Critical        | Network Operations Team      | On-call Escalation Team |\n|                            | Security Operations Team       |                       |\n| 2 - High                | Network Operations Team      | Tier 2 Support Team |\n|                            | Security Operations Team       |                       |\n| 3 - Medium             | Tier 1 Support Team           | Tier 2 Support Team |\n|                            | Tier 2 Support Team          | Tier 3 Support Team |\n| 4 - Low                   | Tier 3 Support Team          | Tier "
+            ],
+            [
+                "additional_kwargs",
+                {}
+            ],
+            [
+                "response_metadata",
+                {
+                    "finish_reason": "length"
+                }
+            ],
+            [
+                "type",
+                "ai"
+            ],
+            [
+                "name",
+                null
+            ],
+            [
+                "id",
+                "run--5c3560ae-7e7f-4c75-ab75-75b6c7a29c81-0"
+            ],
+            [
+                "example",
+                false
+            ],
+            [
+                "tool_calls",
+                []
+            ],
+            [
+                "invalid_tool_calls",
+                []
+            ],
+            [
+                "usage_metadata",
+                null
+            ]
+        ],
+        "sources": [
+            "Akzo Nobel _Orange Azure VWAN Customer operations Guide (COG) v2.3.pdf",
+            "SLA MS Azure Networking MSP - Managed vWAN - v0.2.pdf"
+        ]
+    }
+}

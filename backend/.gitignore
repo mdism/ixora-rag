@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+./__pycache__/
+././__pycache__/
+
+*.pyc
+
+# Virtual Environment
+.venv/
+venv/
+
+# Django specific
+*.sqlite3
+
+documents.txt
+rag_pipeline/models/*
+media
+# Ignore local models
+rag_pipeline/models/
+rag_pipeline/*.bin
+rag_pipeline/*.gguf
+rag_pipeline/*.safetensors
+# Ignore media
+media/

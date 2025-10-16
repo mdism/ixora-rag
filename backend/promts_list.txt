@@ -1,0 +1,25 @@
+
+1.
+what service level agreements are mentioned, what how incidents will be defined, give me the type of incident along with the priority and expected resolution time of the incidents, 
+also give me the table of the escalation  matrix, along with the contact information 
+
+2
+what service level agreements are mentioned in the document
+
+3. 
+What are the incidents mentioned , and what what is priority matrix?
+
+4. types of fish i can get from indian market
+
+5. Define Managed VWAN category definitions
+
+6. What is Managed VWan categories? Also define is there any issue matrix what is the SLA to for incident management?
+
+6. What is Managed VWan categories? Also define is there any issue matrix present or issue characterizations sanctioned in the document?
+
+What are the service level agreement for working on the between Orange and Akzo, list the categories on the incidents along with the SLA of time resolution. 
+
+
+1. how to Configuring a static iLO IP address by using iLO RBSU
+
+What are Incidents how it will be managed and what are the escalation matrix tabular format?

@@ -1,0 +1,21 @@
+[server]
+port = 80
+
+
+
+[theme]
+# Primary accent color for interactive elements
+primaryColor = "#00ff15ff" # Example: Coral Red
+
+# Background color for the main content area
+backgroundColor = "#413c3cff" # Example: White
+
+# Background color for sidebar and most interactive widgets
+secondaryBackgroundColor = "#F0F2F6" # Example: Light Grey
+
+# Color used for almost all text
+textColor = "#262730" # Example: Dark Grey
+
+# Font family for all text
+# Options: "sans serif", "serif", or "monospace"
+font = "sans serif"

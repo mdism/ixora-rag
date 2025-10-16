@@ -1,0 +1,66 @@
+{
+  "customer_id": 1,
+  "tag_id": 1,
+  "question": "how incedent will be manage and what is the esclation matrix?",
+  "provider": "mistral",
+  "chatid":"19",
+  "temprature":0.5,
+  "top_p":0.2,
+  "max_token": 512
+
+}
+
+{
+    "session_id": 32,
+    "answer": {
+        "answer": [
+            [
+                "content",
+                " # Incident Management and Escalation Matrix\n\n## Introduction\nThis section outlines how incidents related to the Managed VWAN service will be managed, and provides an escalation matrix.\n\n## Incident Management\nOrange Business Services follows a well-defined incident management process to ensure that any disruptions to the Managed VWAN service are addressed in a timely and effective manner.\n\nThe incident management process includes the f
+                ollowing steps:\n1. **Identification:** The first step is to identify the incident, which involves recognizing the symptoms and determining the root cause.\n2. **Classification:** Once an incident has been identified, it needs to be classified based on its severity level. This classification helps prioritize the response and ensure that resources are allocated effectively.\n3. **Assignment:** After an incident has been identified, classified, and prioritized, it is assigned to a support engineer or team for resolution.\n4. **Resolution:** The support engineer or team works to resolve the incident by addressing the root cause and implementing any necessary corrective actions.\n5. **Communication:** Throughout the incident management process, effective communication with all stakeholders, including customers, support engineers, and management, is essential to ensure that everyone is informed about the status of the incident and any necessary actions or updates.\n6. **Closure:** Once an incident has been resolved, it is closed out by updating the incident record in the support system and communicating the resolution to all stakeholders.\n\n## Escalation Matrix\nIncidents related to the Managed VWAN service may require escalation to higher levels of support or management based on their severity level and impact on the business.\n\nThe following escalation matrix outlines the different levels of support and management, and the corresponding escalation paths for incidents based on their severity level:\n\n| Severity Level | Support Team | Escalation Path |\n|----------------------|------------------|-----------------------|\n| 1 - Critical        | Network Operations | On-call Engineer    |\n|                            | Security Operations | Security Analyst     |\n| 2 - High                | Network Engineering | Network Engineer       |\n|                            | Application Support | Application Support      |\n| 3 - Medium             | Service Desk        | Service Desk Agent      |\n|                            | Infrastructure Support | Infrastructure Support Agent |\n"
+            ],
+            [
+                "additional_kwargs",
+                {}
+            ],
+            [
+                "response_metadata",
+                {
+                    "finish_reason": "length"
+                }
+            ],
+            [
+                "type",
+                "ai"
+            ],
+            [
+                "name",
+                null
+            ],
+            [
+                "id",
+                "run--32af7c30-ec9b-4127-826c-b5322510213c-0"
+            ],
+            [
+                "example",
+                false
+            ],
+            [
+                "tool_calls",
+                []
+            ],
+            [
+                "invalid_tool_calls",
+                []
+            ],
+            [
+                "usage_metadata",
+                null
+            ]
+        ],
+        "sources": [
+            "Akzo Nobel _Orange Azure VWAN Customer operations Guide (COG) v2.3.pdf",
+            "SLA MS Azure Networking MSP - Managed vWAN - v0.2.pdf"
+        ]
+    }
+}

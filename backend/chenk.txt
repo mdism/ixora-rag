@@ -1,0 +1,286 @@
+Query: define Managed VWAN category definitions
+1 ==> Akzo Nobel _Orange Azure VWAN.pdf
+------
+corresponding to the spoke/virtual network.
+Note: Please be aware that the CSV data file should have all the applicable rules for 
+the corresponding spoke/virtual network at any given point in time as the entire  
+rules collection group is considered as single entity and any unwanted removals  
+from the data file is considered a valid change and the same rules will be removed 
+from the firewall policy.
+4.
+Create new release for the release pipeline after committing the changes to Azure
+____
+sim=np.float64(0.215446824277655)
+______
+______
+2 ==> Akzo Nobel _Orange Azure VWAN.pdf
+------
+Repos Git.
+5.
+Deploy the latest release. Please note that there might a deployment approval 
+required if the change is applied to production environment.
+6.
+Test the change.
+3.8.3
+Firewall Rule Collection Changes [Addition/Updation/Deletion]
+1.
+In  the  absence  of  service  now  a  temporary  process  has  been  created  to 
+accommodate customer Firewall changes. Please refer Appendix B for details.
+2.
+Gather the changes to the firewall rule collections for a given spoke/virtual
+____
+sim=np.float64(0.18302136004465952)
+______
+______
+3 ==> Akzo Nobel _Orange Azure VWAN.pdf
+------
+network and secure the required approvals for the change.
+3.
+Update the CSV data file (in Azure repos Git) for firewall rule collection group 
+corresponding to the spoke/virtual network.
+Note: Please be aware that the CSV data file should have all the applicable rule  
+collections for the corresponding spoke/virtual network at any given point in time  
+as the entire rules collection group is considered as single entity and any unwanted
+____
+sim=np.float64(0.18598399519070083)
+______
+______
+4 ==> Akzo Nobel _Orange Azure VWAN.pdf
+------
+18
+  
+3.1.1    Organization Settings - Agents and Agent Pool                                                                                           
+...................................................................................18
+3.1.2    Project Settings - Service Connection Details                                                                                               
+......................................................................................19
+____
+sim=np.float64(0.19480293740569116)
+______
+______
+5 ==> Akzo Nobel _Orange Azure VWAN.pdf
+------
+removals from the data file is considered a valid change and the same rule  
+collections will be removed from the firewall policy.
+4.
+Create new release for the release pipeline after committing the changes to Azure 
+Repos Git.
+25th February 2022
+Strictly Confidential
+53 of 75
+Orange Restricted
+Customer Operation Guide
+Azure Virtual WAN
+5.
+Deploy the latest release. Please note that there might a deployment approval 
+required if the change is applied to production environment.
+6.
+____
+sim=np.float64(0.23598216851488654)
+______
+______
+6 ==> Akzo Nobel _Orange Azure VWAN.pdf
+------
+6.
+Test the change.
+3.8.4
+Deletion of Rules Collection Group
+1.
+In  the  absence  of  service  now  a  temporary  process  has  been  created  to 
+accommodate customer Firewall changes. Please refer Appendix B for details.
+2.
+Gather the firewall rules collection group to be deleted details and secure the 
+required approvals for the change.
+3.
+Update the CSV data file (in Azure repos Git) for firewall rules collection group 
+deletion.
+4.
+____
+sim=np.float64(0.12366229571019186)
+______
+______
+7 ==> Akzo Nobel _Orange Azure VWAN.pdf
+------
+deletion.
+4.
+Create new release for the release pipeline after committing the changes to Azure 
+Repos Git.
+5.
+Deploy the latest release. Please note that there might a deployment approval 
+required if the change is applied to production environment.
+6.
+Test the change.
+3.8.5
+Adding New Virtual Network/Spoke to Secured Virtual Hub
+1.
+Gather the required Virtual Network/Spoke details that needs to be connected to 
+Secured Virtual Hub.
+2.
+____
+sim=np.float64(0.22815305356183896)
+______
+______
+8 ==> Akzo Nobel _Orange Azure VWAN.pdf
+------
+Secured Virtual Hub.
+2.
+Gather a list of test scenarios to be used as pre-migration and post migration 
+testing.
+3.
+Prepare a spoke specific CSV data file for release pipeline to be used to connect 
+spoke to virtual hub
+4.
+Prepare a spoke specific firewall rules collection group CSV data file.
+5.
+Add these files to Azure Repos Git source code repository as per the defined folder 
+organization and structure.
+6.
+Create new release pipelines for deploying the spoke specific firewall rules
+____
+sim=np.float64(0.11707574368037972)
+______
+______
+9 ==> Akzo Nobel _Orange Azure VWAN.pdf
+------
+spoke from virtual hub
+4.
+Execute release pipeline to disconnect spoke/virtual network from secured virtual 
+hub.
+a.
+Execute the release pipeline to delete firewall rules collection group 
+associated with the virtual network/spoke being removed. Refer section 
+3.8.4 for details.
+5.
+Test the change.
+3.8.8
+Tasks NOT in SCOPE but for Reference
+3.8.8.1 Management of vNet NSG’s / UDR’s
+Spoke application owners will continue to manage (add/ change/delete) their NSG
+____
+sim=np.float64(0.27007871618785495)
+______
+______
+10 ==> Akzo Nobel _Orange Azure VWAN.pdf
+------
+and User Defined Route Table [UDR] entries.
+Note:  GSI will not get access to manage this.
+25th February 2022
+Strictly Confidential
+59 of 75
+Orange Restricted
+Customer Operation Guide
+Azure Virtual WAN
+3.8.8.2 Monitoring ExpressRoute BW utilization
+Orange Network Managed Service refer to key contact appendix C.
+3.8.8.3 Monitoring Z-Scaler BW utilization
+Data will be monitored on ZIA portal. For Orange Network Managed Service refer 
+to key contact appendix C.
+25th February 2022
+____
+sim=np.float64(0.30565817038848603)
+______
+______
+11 ==> Akzo Nobel _Orange Azure VWAN.pdf
+------
+to key contact appendix C.
+25th February 2022
+Strictly Confidential
+60 of 75
+Orange Restricted
+Customer Operation Guide
+Azure Virtual WAN
+4. Managed Overview
+4.1 Incident Management:
+
+     AkzoNobel IT Service Desk will log Incident/ ticket with DCSC(L1) for reactive incident 
+support. i.e. DCSC(L1) will be the SPOC for AkzoNobel IT service Desk
+
+     DCSC (L1) will route the Incident/ ticket logged by AkzoNobel IT Service Desk to OGSI
+____
+sim=np.float64(0.31567819579672035)
+______
+______
+12 ==> Akzo Nobel _Orange Azure VWAN.pdf
+------
+Team via Oceane to OGSI Queue for the resolution process.
+
+     OGSI will do L2/L3 incident resolution support. 
+
+     OGSI will interwork with:
+    
+  OEM for escalations or Third Party Vendor (if AkzoNobel engaged)
+    
+  Assumption that vendor maintenance coverage in place.
+
+     Orange Account team needs to ensure that Orange CS&O Clarify/Oceane ITSM Tool 
+access is extended to OGSI.
+Escalation matrix 
+Managed VWAN category definitions
+Managed VWAN category definitions
+____
+sim=np.float64(0.429386293168552)
+______
+______
+13 ==> Akzo Nobel _Orange Azure VWAN.pdf
+------
+3.3.3    Azure Firewall Policy Template Parameters                                                                                                 
+........................................................................................27
+3.3.4    Azure Firewall Template Parameters                                                                                                            
+...................................................................................................27
+____
+sim=np.float64(0.1441089066899495)
+______
+______
+14 ==> Akzo Nobel _Orange Azure VWAN.pdf
+------
+rcg_apim-vnet-we-dev
+rcg_apim-vnet-we-test
+rcg_akz-lnd1-p-euwe-vnet-spoke
+ 
+Network Rule 
+Collection
+netrc_{DestinationWorkload}
+netrc_ds (ds here stands for Directory 
+Services - the HCL spoke)
+netrc_sap
+netrc_onecolortool
+netrc_datafactory
+The token {DestinationWorkload} should identify the purpose of 
+the traffic (the destination); details of the traffic should be 
+captured in the actual rule (child of the collection)
+There is some subjectivity in the use of the {DestinationWorkload}
+____
+sim=np.float64(0.29780400325951195)
+______
+______
+15 ==> Akzo Nobel _Orange Azure VWAN.pdf
+------
+token but no convention is perfect.
+Network Rule 
+Name
+{Allow/Deny}_{Source}_{Destination}_{Port/Service}
+allow_adcn162_d365vmdevwed-1_8009
+allow_adcn162_znlpo0265vn0001_http
+Tokens {Source} and {Destination} for a virtual machine would be 
+the VM name.
+25th February 2022
+Strictly Confidential
+68 of 75
+Orange Restricted
+Customer Operation Guide
+Azure Virtual WAN
+Item
+Naming Convention
+Examples
+Comment
+allow_znlpo0265vn0001_akz-lnd1-d-
+backend_qmqp
+____
+sim=np.float64(0.35676324589764064)
+
+
+
+________________________________________________________________________________________
+Query 2: 
+
+Embedded Systems - Classification Based on deterministic behavior:
+
